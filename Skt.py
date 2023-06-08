@@ -4,7 +4,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 
 # Read the music dataset
-data = pd.read_csv('D://VSCode//Python//ml1//music.csv.zip')
+data = pd.read_csv('music.csv.zip')
 
 print("Music Dataset:")  # Display the dataset
 print(data)
